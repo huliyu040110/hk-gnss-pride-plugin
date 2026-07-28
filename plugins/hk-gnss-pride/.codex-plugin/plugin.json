@@ -1,0 +1,26 @@
+{
+  "name": "hk-gnss-pride",
+  "version": "0.1.0",
+  "description": "Download Hong Kong SatRef RINEX and run validated PRIDE PPP-AR atmospheric processing.",
+  "author": {
+    "name": "huliyu040110",
+    "url": "https://github.com/huliyu040110"
+  },
+  "homepage": "https://github.com/huliyu040110/hk-gnss-pride-plugin",
+  "repository": "https://github.com/huliyu040110/hk-gnss-pride-plugin",
+  "keywords": ["gnss", "pride-pppar", "water-vapor", "hong-kong", "rinex"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Hong Kong GNSS PRIDE",
+    "shortDescription": "Download SatRef RINEX and run PRIDE PPP-AR.",
+    "longDescription": "A portable workflow for downloading Hong Kong SatRef RINEX 3 observations, running PRIDE PPP-AR with VMF3 and stochastic tropospheric parameters, and validating atmospheric outputs.",
+    "developerName": "huliyu040110",
+    "category": "Developer-Tools",
+    "capabilities": ["Download", "Data processing", "Quality checks"],
+    "defaultPrompt": [
+      "Download and process Hong Kong GNSS data for a UTC date range.",
+      "Resume PRIDE processing using existing RINEX files.",
+      "Validate my PRIDE ZTD and horizontal-gradient outputs."
+    ]
+  }
+}

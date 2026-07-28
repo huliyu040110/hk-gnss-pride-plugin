@@ -1,0 +1,4 @@
+interface:
+  display_name: "香港 GNSS PRIDE 流水线"
+  short_description: "下载香港 SatRef RINEX 并批量执行 PRIDE PPP-AR"
+  default_prompt: "使用 $process-hk-gnss-pride 下载指定日期的香港 GNSS 数据，并用 VMF3 和 STO 参数完成 PRIDE 批处理与质量检查。"

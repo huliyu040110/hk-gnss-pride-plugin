@@ -1,0 +1,20 @@
+{
+  "name": "hk-gnss-research",
+  "interface": {
+    "displayName": "Hk Gnss Research"
+  },
+  "plugins": [
+    {
+      "name": "hk-gnss-pride",
+      "source": {
+        "source": "local",
+        "path": "./plugins/hk-gnss-pride"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer-Tools"
+    }
+  ]
+}
