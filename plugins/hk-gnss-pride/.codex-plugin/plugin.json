@@ -8,6 +8,7 @@
   },
   "homepage": "https://github.com/huliyu040110/hk-gnss-pride-plugin",
   "repository": "https://github.com/huliyu040110/hk-gnss-pride-plugin",
+  "license": "MIT",
   "keywords": ["gnss", "pride-pppar", "water-vapor", "hong-kong", "rinex"],
   "skills": "./skills/",
   "interface": {

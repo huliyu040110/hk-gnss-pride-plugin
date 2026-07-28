@@ -46,3 +46,7 @@ $process-hk-gnss-pride download and process all Hong Kong stations from 2026-05-
 Data defaults to the active workspace's `data/` directory. The workflow never removes raw RINEX files and replaces existing solution days only after an explicit request.
 
 PRIDE PPP-AR and downloaded GNSS/product data are not included in this repository.
+
+## License
+
+The plugin workflow and bundled scripts are released under the MIT License. PRIDE PPP-AR, Hatanaka, Hong Kong SatRef data, and external precise products remain subject to their respective licenses and terms.
